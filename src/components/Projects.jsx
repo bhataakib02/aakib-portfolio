@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 
 const projects = [
   {
@@ -135,8 +133,9 @@ export default function Projects() {
           mainSrc={projects[currentImageIndex].image}
           nextSrc={projects[(currentImageIndex + 1) % projects.length].image}
           prevSrc={
-            projects[(currentImageIndex + projects.length - 1) % projects.length]
-              .image
+            projects[
+              (currentImageIndex + projects.length - 1) % projects.length
+            ].image
           }
           onCloseRequest={() => setLightboxOpen(false)}
           onMovePrevRequest={() =>
