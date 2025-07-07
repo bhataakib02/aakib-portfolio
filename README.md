@@ -1,8 +1,4 @@
-Here is your **final professional and stylish `README.md` file** for your Vercel-hosted portfolio website **`buildwithaakib.com`** (or the deployed link of your choice):
 
----
-
-````markdown
 # 🌐 Bhat Aakib — Developer Portfolio
 
 Welcome to the personal portfolio of **Mohammad Aakib Bhat** — a passionate **Web Developer** and **Cybersecurity Engineer** from Jammu & Kashmir.
